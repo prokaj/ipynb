@@ -7,4 +7,4 @@ You can fit linear regression multiple way. We have seen a few: `np.linalg.lstsq
 
 `statsmodels.api.formula.ols` provides a convinient way with summaries of the result.
 
-The `sklearn` library also has an implementation in the `sklearn.linear_model` submodule, this estimator is called `LinearRegression`. Its purpuse and interface is somewhat different from the `statsmodels` implementation, e.g. you can't get the statistical summary of the fit. However, `yellowbrick` package can help to visualize the fit, it can produce diagnostic plots easily.
+The `sklearn` library also has an implementation in the `sklearn.linear_model` submodule, this estimator is called `LinearRegression`. Its purpuse and interface are somewhat different from the `statsmodels` implementation, e.g. you can't get the statistical summary of the fit. However, `yellowbrick` package can help to visualize the fit, it can produce diagnostic plots easily.
